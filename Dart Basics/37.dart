@@ -4,7 +4,7 @@
 import 'dart:math';
 
 double calculatePower(double base, int exponent) {
-  return pow(base, exponent);
+  return pow(base, exponent).toDouble();
 }
 
 void main() {
